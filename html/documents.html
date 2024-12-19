@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de Documentos</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <div id="document-list-container">
     <h2>Lista de Documentos</h2>
     
     <!-- Barra de búsqueda -->
-    <input type="text" id="search-bar" placeholder="Buscar documento..." />
+    <input type="text" id="search-bar" placeholder="Buscar documento..." style="width: 95%;"/>
 
-    <!-- Lista de documentos -->
-    <ul id="document-list"></ul>
+   <div style="justify-content: start; padding: 10px;">
+       <!-- Lista de documentos -->
+    <ul id="document-list" style="list-style:none; padding: 0;"></ul>
+   </div>
   </div>
   
   <div id="document-viewer" style="display: none;">

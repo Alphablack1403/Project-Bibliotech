@@ -1,10 +1,11 @@
+//Formulario login
 document.getElementById("login-form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
   
     try {
-      const response = await fetch("http://localhost:5000/api/login", {
+      const response = await fetch("http://localhost:5000/api/login", { // Cambiar por el registro de la base de datos
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -19,6 +20,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     }
   });
   
+  // Formulario para crear un nuevo usuario
   document.getElementById("register-form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const name = document.getElementById("name").value;
@@ -32,7 +34,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     }
   
     try {
-      const response = await fetch("http://localhost:5000/api/register", {
+      const response = await fetch("http://localhost:5000/api/register", { // Cambiar por el registro de la base de datos
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, password }),

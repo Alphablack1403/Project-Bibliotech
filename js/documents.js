@@ -1,6 +1,6 @@
-// Simulación de datos de documentos
+ // Simulación de datos de documentos
 const documents = [
-    { id: 1, name: "Documento 1", url: "document1.pdf", comments: ["Comentario 1", "Comentario 2"] },
+    { id: 1, name: "Documento 1", url: '///home/cjamer06/Escritorio/Proyecto Reciclaje.pdf', comments: ["Comentario 1", "Comentario 2"] },
     { id: 2, name: "Documento 2", url: "document2.pdf", comments: ["Comentario A", "Comentario B"] },
     { id: 3, name: "Documento sobre JS", url: "document3.pdf", comments: ["Comentario JS 1", "Comentario JS 2"] },
     { id: 4, name: "Guía de HTML y CSS", url: "document4.pdf", comments: ["Comentario HTML 1", "Comentario CSS 1"] },
@@ -77,9 +77,10 @@ const documents = [
   loadDocumentList();
   
   
-// ? ********************************************************** Cuando la base de datos este implementada usar:
+// ? ********************************************************** Cuando la base de datos este implementada usar: */
 
-/* // Elementos del DOM
+/*
+// Elementos del DOM
 const documentListContainer = document.getElementById("document-list-container");
 const documentViewer = document.getElementById("document-viewer");
 const documentList = document.getElementById("document-list");
@@ -158,5 +159,4 @@ backButton.addEventListener("click", () => {
 
 // Inicializar
 loadDocumentList();
- */
-
+*/
