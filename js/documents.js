@@ -77,7 +77,7 @@ const documents = [
   loadDocumentList();
   
   
-// ? ********************************************************** Cuando la base de datos este implementada usar: */
+// ? ********************************************************** Cuando la base de datos este implementada usar el siguiente bloque de codigo e ignorar el anterior*/
 
 /*
 // Elementos del DOM

@@ -1,7 +1,7 @@
 <?php
 // Datos de la base de datos
 $host = "localhost"; // Cambia si tu base de datos está en otro servidor
-$dbname = "documentos";
+$dbname = "documentos"; // Esto debes cambiarlo por el nombre de la base de datos en donde estén los documentos
 $username = "root"; // Tu usuario de MySQL
 $password = ""; // Tu contraseña de MySQL (si la tienes)
 

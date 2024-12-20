@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     const password = document.getElementById("password").value;
   
     try {
-      const response = await fetch("http://localhost:5000/api/login", { // Cambiar por el registro de la base de datos
+      const response = await fetch("http://localhost:5000/api/login", { // Cambiar por la dirección que te otorgan al crear la base de datos
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -34,7 +34,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     }
   
     try {
-      const response = await fetch("http://localhost:5000/api/register", { // Cambiar por el registro de la base de datos
+      const response = await fetch("http://localhost:5000/api/register", {  // Cambiar por la dirección que te otorgan al crear la base de datos
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, password }),

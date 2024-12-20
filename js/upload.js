@@ -12,7 +12,7 @@ document.getElementById("upload-button").addEventListener("click", async () => {
     formData.append("description", description);
   
     try {
-      const response = await fetch("http://localhost:5000/api/upload", {
+      const response = await fetch("http://localhost:5000/api/upload", {  // Cambiar por la direccion que te otorgan al crear la base de datos
         method: "POST",
         body: formData,
       });

@@ -1,10 +1,10 @@
 <?php
 // Configuración de la base de datos
-define('DB_HOST', 'localhost');
-define('DB_PORT', '5432');
-define('DB_NAME', 'nombre_de_tu_base');
-define('DB_USER', 'tu_usuario');
-define('DB_PASSWORD', 'tu_contraseña');
+define('DB_HOST', 'localhost'); //Cambia aca por el host
+define('DB_PORT', '5432');  // Cambia por el puerto
+define('DB_NAME', 'nombre_de_tu_base'); // Nombre de la base de datos
+define('DB_USER', 'tu_usuario'); // El usuario que
+define('DB_PASSWORD', 'tu_contraseña'); // La contraseña del usuario
 
 try {
     $pdo = new PDO(
