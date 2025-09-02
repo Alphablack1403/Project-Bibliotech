@@ -1,0 +1,15 @@
+{
+    "name": "supabase-project",
+    "version": "1.0.0",
+    "description": "Proyecto de ejemplo usando Supabase y módulos ES.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Tu Nombre",
+    "license": "MIT",
+    "dependencies": {
+        "@supabase/supabase-js": "^2.47.10"
+    }
+}
